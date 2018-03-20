@@ -1,1 +1,48 @@
-/* You can add global styles to this file, and also import other style files */
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+ @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+ @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
+
+
+ /*html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}*/
+
+ body {
+	padding-top: 54px;
+	font-family: 'Source Sans Pro', sans-serif;
+		font-size: 14pt;
+		line-height: 1.75em;
+		font-weight: 200;
+		letter-spacing: 1px;
+		color: #3a3939;
+  }
+  
+  @media (min-width: 992px) {
+	body {
+	  padding-top: 56px;
+	}
+  }
+  
+  .carousel-item {
+	height: 65vh;
+	min-height: 300px;
+	background: no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  }
+  
+  .portfolio-item {
+	margin-bottom: 30px;
+	}
