@@ -14,6 +14,7 @@ import { EtapasComponent } from './etapas/etapas.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
+import { RecursosComponent } from './recursos/recursos.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { AboutComponent } from './about/about.component';
     PortfolioDetailComponent,
     EtapasComponent,
     HomeComponent,
-    AboutComponent
+    AboutComponent,
+    RecursosComponent
   ],
   imports: [
     BrowserModule,
