@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Mi primer App';
+  show:boolean = false;
+
+  toggleCollapse() {
+    this.show = !this.show
+  }
+
+
 }
