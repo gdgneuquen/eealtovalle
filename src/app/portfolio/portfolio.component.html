@@ -6,10 +6,10 @@
 
   <ol class="breadcrumb">
     <li class="breadcrumb-item">
-      <a href="home">Home</a>
+      <a routerLink="/home">Home</a>
     </li>
     <li class="breadcrumb-item">
-      <a href="etapas">Etapas</a>
+      <a routerLink="/etapas">Etapas</a>
     </li>
     <li class="breadcrumb-item active">Organizaciones</li>
   </ol>
@@ -23,7 +23,7 @@
             {{ item.nombre }}
           </h4>
           <p class="card-text">{{ item.objetivo | slice:0:100 }}</p>
-          <a href="/detalle/{{item.id}}"> ... ver mas</a>
+          <a routerLink="/detalle/{{item.id}}"> ... ver mas</a>
         </div>
       </div>
     </div>

@@ -8,10 +8,10 @@
 
 <ol class="breadcrumb">
   <li class="breadcrumb-item">
-    <a href="index.html">Home</a>
+    <a routerLink="/home">Home</a>
   </li>
   <li class="breadcrumb-item">
-      <a href="etapas">Etapas</a>
+      <a routerLink="/etapas">Etapas</a>
     </li>
   <li class="breadcrumb-item active">{{ (item | async)?.nombre }}</li>
 </ol>
@@ -35,7 +35,7 @@
         <li>{{ (item | async)?.email }}</li>
         <li>{{ (item | async)?.telefono }}</li>
         <li>{{ (item | async)?.direccion }}</li>
-        <a href="{{ (item | async)?.website }}">{{ (item | async)?.website }}</a>
+        <a routerLink="{{ (item | async)?.website }}">{{ (item | async)?.website }}</a>
     </ul>
   </div>
 
