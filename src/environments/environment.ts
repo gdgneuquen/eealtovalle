@@ -6,11 +6,11 @@
 export const environment = {
   production: false,
   firebase: {
-    apiKey: 'AIzaSyAB3HX20tes4rJb2sH-ySgLeVuKt4eT3tI',
-    authDomain: 'eeav-25912.firebaseapp.com',
-    databaseURL: 'https://eeav-25912.firebaseio.com',
-    projectId: 'eeav-25912',
-    storageBucket: 'eeav-25912.appspot.com',
-    messagingSenderId: '348729842191'
+    apiKey: 'AIzaSyAQskY1Fh2ifVBpE3Xnu6re0rampVB75aA',
+    authDomain: 'eeav-d4831.firebaseapp.com',
+    databaseURL: 'https://eeav-d4831.firebaseio.com',
+    projectId: 'eeav-d4831',
+    storageBucket: 'eeav-d4831.appspot.com',
+    messagingSenderId: '213285465481'
   }
 };
